@@ -1,4 +1,7 @@
-const getTheTitles = function() {
+const getTheTitles = function(a) {
+    let potato = a.map((inner) => inner.title);
+    //console.log(a);
+    return potato;
 
 };
 
